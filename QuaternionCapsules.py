@@ -8,13 +8,12 @@ from tensorboardX import SummaryWriter
 import datetime
 import os
 from torchvision import datasets, transforms
-from mydatasets import AffNIST, RotMNIST
 import math
 import sys
 import ResidualBlocks
 from Routing_Methods import EMRouting
 from modules import QuaternionLayer
-from modules import STRoutedQCLayer
+
 
 
 eps = 1e-10
